@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White background */
+    --foreground: 222.2 84% 4.9%; /* Dark gray text */
+    --card: 0 0% 100%; /* White card background */
+    --card-foreground: 222.2 84% 4.9%; /* Dark gray card text */
+    --popover: 0 0% 100%; /* White popover background */
+    --popover-foreground: 222.2 84% 4.9%; /* Dark gray popover text */
+    --primary: 221.2 83.2% 53.3%; /* Deep blue primary */
+    --primary-foreground: 210 40% 98%; /* Light gray text on primary */
+    --secondary: 210 40% 96.1%; /* Light gray secondary */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Dark gray text on secondary */
+    --muted: 210 40% 96.1%; /* Light gray muted */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Gray muted text */
+    --accent: 210 40% 96.1%; /* Light gray accent */
+    --accent-foreground: 222.2 47.4% 11.2%; /* Dark gray text on accent */
+    --destructive: 0 84.2% 60.2%; /* Red destructive */
+    --destructive-foreground: 210 40% 98%; /* Light gray text on destructive */
+    --border: 214.3 31.8% 91.4%; /* Light gray border */
+    --input: 214.3 31.8% 91.4%; /* Light gray input */
+    --ring: 221.2 83.2% 53.3%; /* Deep blue ring */
+    --chart-1: 217.2 91.2% 59.8%; /* Blue chart color */
+    --chart-2: 199.3 91.2% 59.8%; /* Teal chart color */
+    --chart-3: 197.4 37.4% 24.3%; /* Dark teal chart color */
+    --chart-4: 43.4 74.6% 66.3%; /* Yellow chart color */
+    --chart-5: 27.3 87.1% 67.1%; /* Orange chart color */
+    --radius: 0.5rem;
+    --sidebar-background: 210 40% 98%; /* Light gray sidebar background */
+    --sidebar-foreground: 222.2 47.4% 11.2%; /* Dark gray sidebar text */
+    --sidebar-primary: 221.2 83.2% 53.3%; /* Deep blue sidebar primary */
+    --sidebar-primary-foreground: 210 40% 98%; /* Light gray text on sidebar primary */
+    --sidebar-accent: 210 40% 96.1%; /* Light gray sidebar accent */
+    --sidebar-accent-foreground: 222.2 47.4% 11.2%; /* Dark gray text on sidebar accent */
+    --sidebar-border: 214.3 31.8% 91.4%; /* Light gray sidebar border */
+    --sidebar-ring: 221.2 83.2% 53.3%; /* Deep blue sidebar ring */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* Dark gray background */
+    --foreground: 210 40% 98%; /* Light gray text */
+    --card: 222.2 84% 4.9%; /* Dark gray card background */
+    --card-foreground: 210 40% 98%; /* Light gray card text */
+    --popover: 222.2 84% 4.9%; /* Dark gray popover background */
+    --popover-foreground: 210 40% 98%; /* Light gray popover text */
+    --primary: 217.2 91.2% 59.8%; /* Bright blue primary */
+    --primary-foreground: 222.2 47.4% 11.2%; /* Dark gray text on primary */
+    --secondary: 217.2 32.6% 17.5%; /* Dark blue-gray secondary */
+    --secondary-foreground: 210 40% 98%; /* Light gray text on secondary */
+    --muted: 217.2 32.6% 17.5%; /* Dark blue-gray muted */
+    --muted-foreground: 215 20.2% 65.1%; /* Gray muted text */
+    --accent: 217.2 32.6% 17.5%; /* Dark blue-gray accent */
+    --accent-foreground: 210 40% 98%; /* Light gray text on accent */
+    --destructive: 0 62.8% 30.6%; /* Dark red destructive */
+    --destructive-foreground: 210 40% 98%; /* Light gray text on destructive */
+    --border: 217.2 32.6% 17.5%; /* Dark blue-gray border */
+    --input: 217.2 32.6% 17.5%; /* Dark blue-gray input */
+    --ring: 217.2 91.2% 59.8%; /* Bright blue ring */
+    --chart-1: 217.2 91.2% 59.8%; /* Blue chart color */
+    --chart-2: 199.3 91.2% 59.8%; /* Teal chart color */
+    --chart-3: 197.4 37.4% 24.3%; /* Dark teal chart color */
+    --chart-4: 43.4 74.6% 66.3%; /* Yellow chart color */
+    --chart-5: 27.3 87.1% 67.1%; /* Orange chart color */
+    --sidebar-background: 222.2 84% 4.9%; /* Dark gray sidebar background */
+    --sidebar-foreground: 210 40% 98%; /* Light gray sidebar text */
+    --sidebar-primary: 217.2 91.2% 59.8%; /* Bright blue sidebar primary */
+    --sidebar-primary-foreground: 210 40% 98%; /* Light gray text on sidebar primary */
+    --sidebar-accent: 217.2 32.6% 17.5%; /* Dark blue-gray sidebar accent */
+    --sidebar-accent-foreground: 210 40% 98%; /* Light gray text on sidebar accent */
+    --sidebar-border: 217.2 32.6% 17.5%; /* Dark blue-gray sidebar border */
+    --sidebar-ring: 217.2 91.2% 59.8%; /* Bright blue sidebar ring */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
