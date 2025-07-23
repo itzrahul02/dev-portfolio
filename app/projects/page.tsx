@@ -18,7 +18,7 @@ const projects = [
     title: 'Personal Portfolio Website',
     description: 'Interactive, Modular and Responsive web portfolio.',
     technologies: ['Next.js', 'Three.js', 'Tailwind', 'ShadCN', 'Email.js', 'TypeScript'],
-    deployedUrl: 'https://rahulsharma2064.vercel.app',
+    deployedUrl: 'https://rahul-portfolio-sooty.vercel.app/',
     icon: IconCode
   },
   {
