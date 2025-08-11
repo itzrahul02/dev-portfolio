@@ -142,7 +142,7 @@ export default function Resume() {
           <Card className="relative bg-gray-800 border border-gray-700/50 hover:border-gray-700 transition-colors">
             <CardContent className="p-0">
               <iframe
-                src="https://drive.google.com/file/d/1erTmUgm83BQppnhTBwRTnglxZhYlnsXz/view?usp=sharing"
+                src="https://drive.google.com/file/d/1NWMYgCjMcYFGVUE31WjJZDQFOsX4AbKS/view?usp=drivesdk"
                 className="w-full h-[600px] border-none rounded-lg"
                 title="Resume Preview"
               />
