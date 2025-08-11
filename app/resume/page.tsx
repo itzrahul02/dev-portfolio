@@ -162,7 +162,7 @@ export default function Resume() {
             className="px-8 py-4 text-lg bg-gradient-to-r from-blue-400 to-purple-400 hover:from-blue-500 hover:to-purple-500 text-gray-900 font-bold rounded-2xl transition-all transform hover:scale-[1.02] shadow-xl hover:shadow-blue-400/20"
           >
             <a
-              href="https://drive.google.com/file/d/1erTmUgm83BQppnhTBwRTnglxZhYlnsXz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NWMYgCjMcYFGVUE31WjJZDQFOsX4AbKS/view?usp=drivesdk"
               download
               className="flex items-center gap-2"
             >
